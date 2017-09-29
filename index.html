@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WordGame</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="control">
+		<div class="score">
+			<h2>得分</h2>
+			<input type="text" value="0" disabled>
+		</div>
+		<div class="choose">
+			<h2>难度选择</h2>
+			<select>
+				<option value="800">简单模式</option>
+				<option value="600">一般模式</option>
+				<option value="400">困难模式</option>
+				<option value="100">死亡模式</option>
+			</select>
+		</div>
+	</div>
+	<div id="con"></div>
+	<script src="js/index.js"></script>
+	<script>
+		new WordGame();
+	</script>
+</body>
+</html>
