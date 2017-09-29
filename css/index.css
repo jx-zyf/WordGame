@@ -4,11 +4,8 @@ body{
 	height:100vh;
 	background-image: url('../images/bg.jpg');
 	background-size: cover;
-<<<<<<< HEAD
 	overflow: hidden;
-=======
 	overflow:hidden;
->>>>>>> 5a5cc5d311beb30d5cb4d7311af1c069b18260db
 }
 .control{
 	margin-top:5vh;
